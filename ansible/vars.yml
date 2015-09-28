@@ -12,7 +12,7 @@ odoo_home: "/home/odoo"
 odoo_config_file: "{{ odoo_home }}/.openerp_serverrc"
 
 db_server: "172.17.42.1"
-db_filter: .*
+# db_filter: .*
 db_name: odoo
 db_user: odoo
 db_password: odoo
