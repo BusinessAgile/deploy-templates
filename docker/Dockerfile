@@ -43,8 +43,7 @@ RUN cd /home/odoo/instance/extra_addons \
     && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/contract.git contract                      \
     && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/social.git social                          \
     && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/purchase-workflow.git purchase-workflow    \
-    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/crm.git crm                                \
-    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/purchase-workflow.git purchase-workflow
+    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/crm.git crm                                
     
 
 ## Remove the key file you added before
