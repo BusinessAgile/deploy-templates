@@ -1,11 +1,11 @@
-image_name: quay.io/vauxoo/image_name:image_tag
+image_name: buag/odoo8-testing:latest
 
-domain: example.com
-container_name: container_name_you_want
-container_hostname: container_hostname_you_want
+domain: erp.businessagile.eu
+container_name: buag_odoo8_testing
+container_hostname: erp.businessagile.eu
 
-odoo_mapped_port: 5000
-odoo_mapped_port_lp: 5001
+odoo_mapped_port: 8055
+odoo_mapped_port_lp: 8056
 
 odoo_user: "odoo"
 odoo_home: "/home/odoo"
@@ -13,15 +13,15 @@ odoo_config_file: "{{ odoo_home }}/.openerp_serverrc"
 
 db_server: "172.17.42.1"
 db_filter: .*
-db_name: database_name
-db_user: postgres_user
-db_password: postgres_user_password
+db_name: odoo
+db_user: odoo
+db_password: odoo
 db_port: 5432
 without_demo: True
-admin_passwd: odoo_admin_password
+admin_passwd: admin
 list_db: False
 
 memory_limit: 512MB
 
-working_folder: /the/folder/host/filesystem
+working_folder: /opt/odoo/buag/testing
 
