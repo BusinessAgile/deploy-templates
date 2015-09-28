@@ -1,5 +1,5 @@
 [options]
-addons_path=/home/odoo/instance/odoo/addons,/home/odoo/instance/extra_addons/repo_folder_name
+addons_path=/home/odoo/instance/odoo/addons,/home/odoo/instance/extra_addons/
 admin_passwd = admin
 auto_reload = False
 csv_internal_sep = ,
@@ -9,7 +9,7 @@ db_maxconn = 64
 db_name = False
 db_password = odoo
 db_port = 5432
-db_template = template1
+;db_template = template1
 db_user = odoo
 dbfilter = .*
 debug_mode = False
@@ -35,8 +35,8 @@ pg_path = None
 pidfile = None
 proxy_mode = False
 reportgz = False
-secure_cert_file = server.cert
-secure_pkey_file = server.pkey
+;secure_cert_file = server.cert
+;secure_pkey_file = server.pkey
 server_wide_modules = None
 smtp_password = False
 smtp_port = 25
