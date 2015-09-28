@@ -32,18 +32,18 @@ RUN cd /home/odoo/instance && git clone -b 8.0 --single-branch --depth=1 https:/
 
 ## Add the repos you want to use
 RUN cd /home/odoo/instance/extra_addons \
-    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/server-tools.git server-tools
-    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/project.git project
-    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/bank-payment.git bank-payment
-    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/web.git web
-    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/website.git website
-    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/pos.git pos
-    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/management-system.git management-system
-    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/hr.git hr
-    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/contract.git contract
-    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/social.git social
-    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/purchase-workflow.git purchase-workflow
-    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/crm.git crm
+    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/server-tools.git server-tools              \
+    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/project.git project                        \
+    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/bank-payment.git bank-payment              \
+    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/web.git web                                \
+    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/website.git website                        \
+    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/pos.git pos                                \
+    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/management-system.git management-system    \
+    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/hr.git hr                                  \
+    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/contract.git contract                      \
+    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/social.git social                          \
+    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/purchase-workflow.git purchase-workflow    \
+    && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/crm.git crm                                \
     && git clone -b 8.0 --single-branch --depth=1 https://github.com/OCA/purchase-workflow.git purchase-workflow
     
 
